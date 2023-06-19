@@ -50,7 +50,7 @@
                 <a class="nav-link" href="./contact.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Más Lugares</a>
+                <a class="nav-link active" href="#">Más Lugares</a>
               </li>
               <li class="nav-item">
                 <a
@@ -97,7 +97,9 @@
               <li
                 class="d-flex col-5 justify-content-center nav-item mx-1 rounded-pill bg-white p-2 target"
               >
-                <a class="nav-link text-dark text-target" href="#">Loguearse</a>
+                <a class="nav-link text-dark text-target" href="./login.html"
+                  >Loguearse</a
+                >
               </li>
               <li
                 class="d-flex col-5 justify-content-center nav-item mx-1 rounded-pill bg-dark border border-light p-2 target-2"
@@ -113,89 +115,131 @@
         </div>
       </nav>
     </header>
-    <main
-      class="d-flex col container-fluid justify-content-center align-items-center mt-5"
-    >
-      <section class="d-flex row mt-5">
-        <div class="col mt-5">
-          <div class="card mb-3">
-            <div class="row g-0">
-              <div class="col-md-4 col-lg-6 d-none d-md-block card-contact">
-                <img
-                  src="/assets/limones.png"
-                  class="img-fluid rounded-start h-100"
-                  alt="Imagen de limones"
-                />
-              </div>
-              <div class="col-md-8 col-lg-6">
-                <div class="card-body">
-                  <h1>Inicia Sesión</h1>
-                </div>
-                <form>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"
-                      >Dirección de email</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="nombre@ejemplo.com"
-                      required
-                    />
-                    <div id="emailHelp" class="form-text">
-                      Nunca debes compartir tu email con alguien.
-                    </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"
-                      >Contraseña</label
-                    >
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="exampleInputPassword1"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3 d-grid">
-                    <button type="submit" class="btn btn-primary">
-                      Entrar
-                    </button>
-                  </div>
-                  <div
-                    class="d-flex text-center justify-content-center align-items-center"
-                  >
-                    <p>----también puedes usar estas opciones----</p>
-                  </div>
-
-                  <div
-                    class="d-grid d-flex text-center justify-content-center align-items-center gap-2 d-md-block"
-                  >
-                    <a href="./error404.html"
-                      ><button class="btn btn-primary" type="button">
-                        Facebook
-                      </button></a
-                    >
-                    <a href="./error404.html"
-                      ><button class="btn btn-primary" type="button">
-                        Google
-                      </button></a
-                    >
-                  </div>
-                  <div
-                    class="d-flex text-center justify-content-center align-items-center mt-5 mb-5"
-                  >
-                    <a
-                      href="https://www.ejemplo.com"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modal"
-                      >¿Olvidaste tu Contraseña?</a
-                    >
-                  </div>
-                </form>
-              </div>
+    <main class="container-fluid">
+      <div class="text-center pt-5 mt-5">
+        <h1 class="mt-5">Galeria de Imagenes</h1>
+        <p>Explora otros lugares interesantes de nuestra provincia.</p>
+      </div>
+      <section class="my-3" id="galeria">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/cristo bendicente.jpg"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Cristo Bendicente</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/rio noque.jfif"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Cascada del Río Noque</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/los alisos.jfif"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Cascada de los Alisos</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/funicular.jpg"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Sendero Funicular</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/puerta del c.jpg"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Sendero Puerta del Cielo</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/cuesta vieja.jpg"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Sendero Cuesta Vieja</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/aguas chiquitas.jpg"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Reserva Aguas Chiquitas</span
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-12 box mt-5 d-flex align-items-center"
+          >
+            <div class="row">
+              <img
+                class="col-12"
+                src="/assets/loma bola.jpg"
+                alt="Foto Galería"
+              />
+              <span
+                class="col-12 text-center rounded-pill bg-info text-white img-name ms-3"
+                >Loma Bola</span
+              >
             </div>
           </div>
         </div>
