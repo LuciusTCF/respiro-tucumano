@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .nav-footer-color{
+    background-color: #002831;
+  }
+  main {
+    /* background-color: #FDF7C3; */
+    background-color: #FFEF82;
+  }
+
+ .navbar-footer-brand img {
+    width: 225px;
+    height: 50px;
+  }
+
+  .login{
+    background-color: green;
+  }
+
+ .target {
+    width: 8rem;
+    filter: brightness(100%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+ .target:hover{
+    filter: brightness(75%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+
+ .target-2 {
+    width: 8rem;
+    filter: brightness(100%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+ .target-2:hover{
+    filter: brightness(125%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+
+ .text-target {
+    filter: brightness(100%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+ .text-target:hover {
+    filter: brightness(100%);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+
+
+/* 
+.centrar {
+    text-align: center; Centrado horizontal
+    display: flex; Centrado vertical
+    justify-content: center; Centrado vertical
+    align-items: center; Centrado vertical
+    height: 100vh; Ajusta la altura según tus necesidades
+} */
+
+
+
+
+
+
+
+textarea{
+    resize: none;
+}
+
+#tarjetas .card{
+    background-color: #BF9B7A;
+    color: gainsboro;
+    transition: transform 0.2s;
+}
+
+#tarjetas .card:hover{
+    transform: scale(1.1);
+}
+
+.img-bg img{
+  height: 35rem;
+  object-fit: cover;
+}
+
+
+
+.carousel-inner .carousel-item {
+  position: relative;
+  height: 100vh;
+}
+
+.carousel-inner .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+  filter: grayscale(0.8);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(24, 23, 23, 0.523);
+  z-index: 1;
+}
+
+.overlay h1 {
+  font-size: 40px;
+}
+#border{
+  /* border-radius: 10px; */
+box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+}
+
+.card-speakers img {
+  height: 400px;
+  width: 800px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+}
+
+.info-img{
+  width: 400px;
+  height: 400px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+ /* .img-ad{
+  height: 155rem;
+  width: 32rem;
+ } */
+ .card-ad img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.img-place{
+  height: 20rem;
+}
+.img-place img{
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* .img-ad{
+  height: 73px;
+}
+.img-ad img{
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* @media (min-width:768px){
+  .img-place{
+    height: 10rem;
+  }
+}
+
+@media (min-width:850px){
+  .img-ad{
+    height: 690px;
+  }
+}
+
+@media (min-width:992px){
+  .img-ad{
+    height: 555px;
+  }
+}
+
+@media (min-width:1024px){
+  .img-place{
+    height: 20rem;
+  }
+  .img-ad{
+    height: 1040px;
+  }
+}
+
+@media (min-width:1200px){
+  .img-ad{
+    height: 1180px;
+  }
+}
+
+@media (min-width:1400px){
+  .img-ad{
+    height: 1110px;
+  }
+} */
+
+
+
+.profile-anonymous{
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+.profile-anonymous img{
+  height: 100%;
+  width: 100%;
+}
+
+.profile-comment{
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+.profile-comment img{
+  height: 100%;
+  width: 100%;
+}
+
+.img-comment-1{
+  height: 20rem;
+  width: auto;
+}
+.img-comment-1 img{
+  height: 100%;
+  object-fit:scale-down;
+}
+
+.comment-like{
+  width: 3rem;
+}
+.comment-button{
+  width: 6rem;
+}
+
+.overlay h1 {
+  font-size: 40px;
+}
+#border{
+  border-radius: 10px;
+box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+}
+
+.card-speakers img {
+  height: 400px;
+  width: 800px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.75);
+}
+
+.info-img{
+  width: 400px;
+  height: 400px;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
